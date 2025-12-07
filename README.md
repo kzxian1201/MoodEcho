@@ -78,16 +78,14 @@ If you prefer running without Docker:
 * Update `backend/src/main/resources/application.properties` with your DB credentials.
 
 **2. Backend**
-cd backend
-./mvnw spring-boot:run
-
-**3. Frontend**
-cd frontend
-npm install
-npm run dev
-
-
-
 ```bash
 cd backend
 ./mvnw spring-boot:run
+```
+
+**3. Frontend**
+```bash
+cd frontend
+npm install
+npm run dev
+```
